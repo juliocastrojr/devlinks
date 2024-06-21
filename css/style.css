@@ -35,7 +35,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0;
+  margin: 48px auto 0;
   padding: 0 24px;
 }
 
@@ -46,6 +46,7 @@ body * {
 
 #profile img {
   width: 112px;
+  height: 113px;
   border-radius: 100px;
   border: 3px solid #482891;
 }
@@ -99,8 +100,8 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 24px 0;
+  gap: 10px;
+  padding: 10px 0;
 }
 
 ul li a {
@@ -108,7 +109,7 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 24px;
+  padding: 16px 10px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
@@ -126,7 +127,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
+  padding: 10px 0;
   font-size: 24px;
 }
 
@@ -144,7 +145,7 @@ ul li a:hover {
 }
 
 footer {
-  padding: 24px 0;
+  padding: 10px 0;
   text-align: center;
   font-size: 14px;
 }
