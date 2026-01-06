@@ -4,8 +4,8 @@ const toggleMode = () => {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/sysconnectlight.png")
+    img.setAttribute("src", "./assets/profile-light.png")
   } else {
-    img.setAttribute("src", "./assets/sysconnectdark.png")
+    img.setAttribute("src", "./assets/profile-dark.png")
   }
 }
